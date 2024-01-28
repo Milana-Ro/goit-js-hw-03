@@ -1,7 +1,6 @@
 'use strict';
 
 function filterArray(numbers, value) {
-    
     const requiredNumbers = [];
     
     for (const number of numbers) {

@@ -1,13 +1,11 @@
 'use strict';
 
 function slugify(title) {
-
     const stringToArray = title.split(" ");
-    let normalizedText;
     const newArray = [];
 
 for (const element of stringToArray) {
-    normalizedText = element.toLowerCase();
+    const normalizedText = element.toLowerCase();
     newArray.push(normalizedText);
 }
     const slug = newArray.join("-");
